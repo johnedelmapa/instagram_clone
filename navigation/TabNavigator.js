@@ -19,7 +19,7 @@ const TabNavigator = createBottomTabNavigator({
     }
   },
   Search: {
-    screen: Home,
+    screen: Search,
     navigationOptions: {
       tabBarLabel: ' ',
       tabBarIcon: () => (
