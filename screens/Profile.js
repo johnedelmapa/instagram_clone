@@ -16,7 +16,7 @@ class Profile extends React.Component {
 
 const mapStateToProps = (state) => {
   return {
-    counter: state
+    counter: state.counter
   }
 }
 
